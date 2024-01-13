@@ -45,7 +45,7 @@ export default function Navbar(props) {
             </li>
           </ul>
         </div>
-        <div className="d-flex">
+        {/* <div className="d-flex">
           <div
             className="bg-primary rounded mx-2"
             onClick={() => {
@@ -118,7 +118,7 @@ export default function Navbar(props) {
               border: "1px solid black",
             }}
           ></div>
-        </div>
+        </div> */}
         <div
           className={`form-check form-switch text-${
             props.mode === "light" ? "dark" : "light"
